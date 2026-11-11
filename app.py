@@ -1,5 +1,6 @@
 demandes = []
 prochain_id = 1
+titre = ""
 def ajouter_demande():
     global prochain_id
     titre = input("Titre de la demande : ").strip()
@@ -49,6 +50,7 @@ def menu():
         print("1. Ajouter une demande")
         print("2. Afficher les demandes")
         print("3. Rechercher par identifiant")
+        print("4. Supprimer une demande")
         print("0. Quitter")
         choix = input("Votre choix : ").strip()
 
